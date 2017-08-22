@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Найти простые числа</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="instruction_text">Введите любое количество чисел для нахождения простых и их суммы.
+        Вы можете разделять числа пробелами или запятыми. </string>
+    <string name="prime_sum">Сумма</string>
+    <string name="prime_enumeration">Прстые числа</string>
+</resources>
