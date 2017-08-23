@@ -11,6 +11,8 @@
 
     <string name="msg_no_numbers">No numbers is entered</string>
     <string name="msg_empty_string">Empty string is entered</string>
+    <string name="msg_lack_memory">Lack of the memory</string>
+    <string name="msg_out_of_bounds">Ops, mistake is found</string>
 
     <string name="menu_info">Menu info</string>
 

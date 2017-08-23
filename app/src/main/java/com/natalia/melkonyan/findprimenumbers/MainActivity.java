@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         Collections.sort(checkedInput);
         int N = checkedInput.get(checkedInput.size() - 1);
 
-        List<Integer> calculatedPrimeNumbers = calculatePrimeNumbers(N);
+        List<Integer> calculatedPrimeNumbers = calculatePrimeNumbers(N, this);
 
         checkedInput = getAllPrimesFromInput(checkedInput, calculatedPrimeNumbers);
 

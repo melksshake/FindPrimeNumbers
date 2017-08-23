@@ -10,8 +10,10 @@
 
     <string name="btn_calculate">Посчитать</string>
 
-    <string name="msg_no_numbers">Чисел не введеноs</string>
-    <string name="msg_empty_string">Empty string is entered</string>
+    <string name="msg_no_numbers">Чисел не введено</string>
+    <string name="msg_empty_string">Введена пустая строка</string>
+    <string name="msg_lack_memory">Нехватка памяти</string>
+    <string name="msg_out_of_bounds">Упс, ошибка</string>
 
     <string name="menu_info">Информация</string>
 
