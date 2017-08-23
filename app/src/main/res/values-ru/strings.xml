@@ -6,5 +6,16 @@
     <string name="instruction_text">Введите любое количество чисел для нахождения простых и их суммы.
         Вы можете разделять числа пробелами или запятыми. </string>
     <string name="prime_sum">Сумма</string>
-    <string name="prime_enumeration">Прстые числа</string>
+    <string name="prime_enumeration">Простые числа</string>
+
+    <string name="btn_calculate">Посчитать</string>
+
+    <string name="msg_no_numbers">Чисел не введеноs</string>
+    <string name="msg_empty_string">Empty string is entered</string>
+
+    <string name="menu_info">Информация</string>
+
+    <string name="credentials">Для связи</string>
+    <string name="name">Имя: Мелконян Наталия</string>
+    <string name="email">E-mail: nat-melk@yandex.ru</string>
 </resources>

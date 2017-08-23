@@ -10,8 +10,9 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/margin_16"
         android:layout_marginRight="@dimen/margin_16"
-        android:layout_marginTop="?attr/actionBarSize"
-        android:text="@string/instruction_text" />
+        android:layout_marginTop="@dimen/act_bar_margin"
+        android:text="@string/instruction_text"
+        android:textSize="@dimen/font_17" />
 
     <EditText
         android:id="@+id/et_prime_numbers"
@@ -21,41 +22,72 @@
         android:layout_marginLeft="@dimen/margin_8"
         android:layout_marginRight="@dimen/margin_8"
         android:layout_marginTop="@dimen/margin_16"
-        android:background="@color/colorAccent" />
+        android:textSize="@dimen/font_17" />
 
     <Button
         android:id="@+id/btn_start_computation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="@dimen/margin_16" />
+        android:layout_marginTop="@dimen/margin_16"
+        android:text="@string/btn_calculate" />
 
     <LinearLayout
         android:id="@+id/computation_results"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
         android:visibility="gone">
 
-        <EditText
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center|center_horizontal"
             android:layout_marginLeft="@dimen/margin_8"
             android:layout_marginRight="@dimen/margin_8"
             android:layout_marginTop="@dimen/margin_16"
-            android:background="@color/colorAccent" />
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-        <EditText
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/prime_sum"
+                android:textSize="@dimen/font_17" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prime_enumeration"
+                android:textSize="@dimen/font_17" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center|center_horizontal"
             android:layout_marginLeft="@dimen/margin_8"
             android:layout_marginRight="@dimen/margin_8"
             android:layout_marginTop="@dimen/margin_16"
-            android:background="@color/colorAccent" />
+            android:layout_weight="1"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/tv_prime_sum"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_17" />
+
+            <TextView
+                android:id="@+id/tv_prime_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:textSize="@dimen/font_17" />
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>

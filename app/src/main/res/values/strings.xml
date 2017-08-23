@@ -6,4 +6,15 @@
         space. </string>
     <string name="prime_sum">Sum</string>
     <string name="prime_enumeration">Prime enumeration</string>
+
+    <string name="btn_calculate">Calculate</string>
+
+    <string name="msg_no_numbers">No numbers is entered</string>
+    <string name="msg_empty_string">Empty string is entered</string>
+
+    <string name="menu_info">Menu info</string>
+
+    <string name="credentials">Contact me</string>
+    <string name="name">Name: Melkonyan Natalia</string>
+    <string name="email">E-mail: nat-melk@yandex.ru</string>
 </resources>

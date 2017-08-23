@@ -3,4 +3,8 @@
     
     <dimen name="margin_8">8dp</dimen>
     <dimen name="margin_16">16dp</dimen>
+
+    <dimen name="font_17">17sp</dimen>
+
+    <dimen name="act_bar_margin">60dp</dimen>
 </resources>
